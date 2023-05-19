@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstApp.MainPage">
+
+    <StackLayout  Orientation="Horizontal">
+        <Label Text="Hello!" Background="red"/>
+        <Label Text="Hello!" Background="blue"/>
+        <Label Text="Hello!" Background="yellow"/>
+
+        <Label 
+            Text="Grapes!!"
+            FontSize="30"
+            TextColor="#FF00FF"
+            BackgroundColor="GreenYellow"
+            HorizontalTextAlignment="Center"
+            Padding="30, 10, 30, 10"/>
+    </StackLayout>
+
+</ContentPage>
